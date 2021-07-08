@@ -9,15 +9,15 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-// Connect to database
+// Connect to databas
 const db = mysql.createConnection(
   {
     host: 'localhost',
     // Your MySQL username,
     user: 'root',
     // Your MySQL password
-    password: 'Harsel12',
-    database: 'election'
+    password: 'Harsel12.',
+    database: 'elections'
   },
   console.log('Connected to the election database.')
 );
